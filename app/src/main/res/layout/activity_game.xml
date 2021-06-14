@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ruleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rules"
+            android:onClick="rulesHandler"/>
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back"
+            android:onClick="backHandler"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/q1Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Question 1"
+        android:onClick="q1Handler"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/q2Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Question 2"
+        android:onClick="q2Handler"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/q3Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Question 3"
+        android:onClick="q3Handler"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/q4Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Question 4"
+        android:onClick="q4Handler"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/q5Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Question 5"
+        android:onClick="q5Handler"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Space>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:onClick="submitHandler"/>
+
+
+</LinearLayout>
